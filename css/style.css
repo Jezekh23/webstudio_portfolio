@@ -1,0 +1,30 @@
+:root {
+    --top-botbgcolor: #2F303A;
+}
+
+:root {
+    --maintextandbg: #FFF;
+}
+
+:root {
+    --middown: #F5F4FA;
+}
+
+:root {
+    --bluetext: #2196F3;
+}
+
+:root {
+    --greytext: #212121;
+}
+
+:root {
+    --blacktext: #000;
+}
+
+:root {
+    --lighttext: #757575;
+}
+ :root {
+    --infocolor: rgba(255, 255, 255, 0.60);
+}
