@@ -13,6 +13,8 @@ body {
     font-family: "Roboto";
 }
 
+/* webstudio-logo */
+
 .web {
     color: var(--bluetext);
     font-family: Raleway;
@@ -30,6 +32,8 @@ body {
     line-height: 1.38;
     letter-spacing: 0.78px;
 }
+
+/* header */
 
 .head-link-st {
     color: #2196F3;
@@ -63,6 +67,8 @@ body {
     letter-spacing: 0.28px;
 }
 
+/* hero */
+
 .hero-title {
     color: var(--maintextandbg);
     text-align: center;
@@ -82,6 +88,8 @@ body {
     letter-spacing: 0.96px;
 }
 
+/* advantages */
+
 .advantages-subtitle {
     color: var(--greytext);
     font-size: 14px;
@@ -99,6 +107,8 @@ body {
     letter-spacing: 0.42px;
 }
 
+/* work */
+
 .work-title {
     color: var(--greytext);
     text-align: center;
@@ -108,6 +118,8 @@ body {
     letter-spacing: 1.08px;
 }
 
+/* team */
+
 .team-title {
     color: var(--greytext);
     text-align: center;
@@ -116,6 +128,8 @@ body {
     line-height: 1.16;
     letter-spacing: 1.08px;
 }
+
+/* footer */
 
 .foot-link {
     color: var(--maintextandbg);
