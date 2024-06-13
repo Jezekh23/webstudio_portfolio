@@ -35,7 +35,7 @@ body {
 
 /* header */
 
-.head-link-st {
+.nav-link-st {
     color: #2196F3;
     font-size: 14px;
     font-weight: 500;
@@ -43,7 +43,7 @@ body {
     letter-spacing: 0.28px;
 }
 
-.head-link {
+.nav-link {
     color: var(--greytext);
     font-size: 14px;
     font-weight: 500;
@@ -51,7 +51,7 @@ body {
     letter-spacing: 0.28px;
 }
 
-.head-item-ma {
+.nav-item-ma {
     color: var(--bluetext);
     font-size: 14px;
     font-weight: 500;
@@ -59,7 +59,7 @@ body {
     letter-spacing: 0.28px;
 }
 
-.head-item {
+.nav-item {
     color: var(--lighttext);
     font-size: 14px;
     font-weight: 500;
@@ -145,4 +145,13 @@ body {
     font-weight: 400;
     line-height: 24px; /* 171.429% */
     letter-spacing: 0.42px;
+}
+
+.foot-logo {
+    color: var(--maintextandbg);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: 0.78px;
 }
