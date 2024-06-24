@@ -33,7 +33,7 @@ body {
 
 /* webstudio-logo */
 
-.web {
+.logo-web {
     color: var(--bluetext);
     font-family: Raleway;
     font-size: 26px;
@@ -42,7 +42,7 @@ body {
     letter-spacing: 0.78px;
 }
 
-.logo {
+.header-logo {
     color: var(--blacktext);
     font-family: Raleway;
     font-size: 26px;
@@ -53,8 +53,12 @@ body {
 
 /* header */
 
-.nav-link-bl {
-    color: #2196F3;
+.hero {
+    background-color: var(--top-botbgcolor);
+}
+
+.header-link {
+    color: var(--lighttext);
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
@@ -69,16 +73,8 @@ body {
     letter-spacing: 0.28px;
 }
 
-.nav-item-ma {
+.nav-link:hover, .header-link:hover {
     color: var(--bluetext);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.28px;
-}
-
-.nav-item {
-    color: var(--lighttext);
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
@@ -92,7 +88,7 @@ body {
     text-align: center;
     font-size: 44px;
     font-weight: 900;
-    line-height: 60px; /* 136.364% */
+    line-height: 1.36; /* 136.364% */
     letter-spacing: 2.64px;
     text-transform: uppercase;
 }
@@ -102,8 +98,11 @@ body {
     text-align: center;
     font-size: 16px;
     font-weight: 700;
-    line-height: 30px; /* 187.5% */
+    line-height: 1.88; /* 187.5% */
     letter-spacing: 0.96px;
+    border-radius: 4px;
+    background: var(--bluetext);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 /* advantages */
@@ -121,7 +120,7 @@ body {
     color: var(--lighttext);
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px; /* 171.429% */
+    line-height: 1.71; /* 171.429% */
     letter-spacing: 0.42px;
 }
 
@@ -147,9 +146,31 @@ body {
     letter-spacing: 1.08px;
 }
 
+/* portfolio */
+
+.port-button {
+    width: 125px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: var(--middown);
+}
+
+.port-button:hover {
+    width: 125px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: var(--bluetext);
+}
+
 /* footer */
 
-.foot-link {
+.footer {
+    background-color: var(--top-botbgcolor);
+}
+
+.footer-link {
     color: var(--maintextandbg);
     font-size: 14px;
     font-weight: 400;
@@ -157,7 +178,7 @@ body {
     letter-spacing: 0.42px;
 }
 
-.foot-info {
+.footer-info {
     color: var(--infocolor);
     font-size: 14px;
     font-weight: 400;
@@ -165,7 +186,7 @@ body {
     letter-spacing: 0.42px;
 }
 
-.foot-logo {
+.footer-logo {
     color: var(--maintextandbg);
     font-family: Raleway;
     font-size: 26px;
