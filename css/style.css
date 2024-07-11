@@ -103,6 +103,7 @@ body {
     border-radius: 4px;
     background: var(--bluetext);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 10px 32px;
 }
 
 /* advantages */
