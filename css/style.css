@@ -98,6 +98,8 @@ body {
     line-height: 1.36; /* 136.364% */
     letter-spacing: 2.64px;
     text-transform: uppercase;
+    margin-top: 200px;
+    margin-bottom: 30px;
 }
 
 .hero-button {
@@ -111,9 +113,15 @@ body {
     background: var(--bluetext);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     padding: 10px 32px;
+    margin-bottom: 200px;
 }
 
 /* advantages */
+
+.advantages-list {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
 
 .advantages-subtitle {
     color: var(--greytext);
@@ -141,6 +149,11 @@ body {
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 1.08px;
+    margin-bottom: 50px;
+}
+
+.work-list {
+    margin-bottom: 94px;
 }
 
 /* team */
@@ -152,7 +165,14 @@ body {
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 1.08px;
+    margin-top: 94px;
+    margin-bottom: 50px;
 }
+
+.team-list {
+    margin-bottom: 94px;
+}
+
 .team-name {
     color: var(--greytext);
     text-align: center;
@@ -222,6 +242,16 @@ body {
     background-color: var(--top-botbgcolor);
 }
 
+.footer-logo {
+    color: var(--maintextandbg);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: 0.78px;
+    margin-top: 60px;
+}
+
 .footer-link {
     color: var(--maintextandbg);
     font-size: 14px;
@@ -236,13 +266,6 @@ body {
     font-weight: 400;
     line-height: 24px; /* 171.429% */
     letter-spacing: 0.42px;
+    margin-bottom: 60px;
 }
 
-.footer-logo {
-    color: var(--maintextandbg);
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.38;
-    letter-spacing: 0.78px;
-}
