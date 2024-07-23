@@ -259,7 +259,7 @@ body {
     color: var(--maintextandbg);
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px; /* 171.429% */
+    line-height: 17; /* 171.429% */
     letter-spacing: 0.42px;
 }
 
@@ -267,7 +267,7 @@ body {
     color: var(--infocolor);
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px; /* 171.429% */
+    line-height: 17; /* 171.429% */
     letter-spacing: 0.42px;
 }
 
