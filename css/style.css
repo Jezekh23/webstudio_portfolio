@@ -40,6 +40,11 @@ body {
 
 /* webstudio-logo */
 
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
 .logo-web {
     color: var(--bluetext);
     font-family: Raleway;
@@ -56,9 +61,26 @@ body {
     font-weight: 700;
     line-height: 1.38;
     letter-spacing: 0.78px;
+    margin-right: 93px;
 }
 
 /* header */
+
+.header>.container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
+}
+
+.header-list {
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+}
 
 .header-link {
     color: var(--lighttext);
@@ -90,6 +112,7 @@ body {
     background-color: var(--top-botbgcolor);
     padding-top: 200px;
     padding-bottom: 200px;
+    text-align: center;
 }
 
 
@@ -102,6 +125,10 @@ body {
     letter-spacing: 2.64px;
     text-transform: uppercase;
     margin-bottom: 30px;
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;   
 }
 
 .hero-button {
@@ -115,13 +142,18 @@ body {
     background: var(--bluetext);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     padding: 10px 32px;
+    border: none;
 }
 
 /* advantages */
 
+.advantages {
+    padding-top: 94px;
+}
+
 .advantages-list {
-    margin-top: 94px;
-    margin-bottom: 94px;
+    display: flex;
+    gap: 30px;
 }
 
 .advantages-subtitle {
@@ -131,6 +163,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .advantages-text {
@@ -143,6 +176,11 @@ body {
 
 /* work */
 
+.work {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .work-title {
     color: var(--greytext);
     text-align: center;
@@ -151,10 +189,6 @@ body {
     line-height: 1.16;
     letter-spacing: 1.08px;
     margin-bottom: 50px;
-}
-
-.work-list {
-    margin-bottom: 94px;
 }
 
 /* team */
@@ -194,6 +228,11 @@ body {
 }
 
 /* portfolio */
+
+.port {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .port-button {
     color: var(--greytext);
@@ -259,7 +298,7 @@ body {
     color: var(--maintextandbg);
     font-size: 14px;
     font-weight: 400;
-    line-height: 17; /* 171.429% */
+    line-height: 1.71; /* 171.429% */
     letter-spacing: 0.42px;
 }
 
@@ -267,7 +306,7 @@ body {
     color: var(--infocolor);
     font-size: 14px;
     font-weight: 400;
-    line-height: 17; /* 171.429% */
+    line-height: 1.71; /* 171.429% */
     letter-spacing: 0.42px;
 }
 
