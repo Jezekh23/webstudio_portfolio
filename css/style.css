@@ -39,7 +39,7 @@ body {
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 /* webstudio-logo */
@@ -123,7 +123,7 @@ body {
     color: var(--bluetext);
 }
 
-.nav-link:hover, .header-link:hover {
+.nav-link:hover, .nav-link:focus, .header-link:hover, .header-link:focus {
     color: var(--bluetext);
     font-size: 14px;
     font-weight: 500;
@@ -360,7 +360,7 @@ body {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: normal;
+    line-height: 1.16;
     letter-spacing: 1.08px;
     margin-bottom: 50px;
 }
@@ -421,7 +421,7 @@ body {
     border: none;
 }
 
-.port-button:hover {
+.port-button:hover, .port-button:focus {
     color: var(--maintextandbg);
     text-align: center;
     font-size: 16px;
@@ -446,7 +446,7 @@ body {
     outline: 1px solid #EEE;
 }
 
-.card-item:hover {
+.card-item:hover, .card-item:focus {
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);}
 
 .card-img {
@@ -519,7 +519,6 @@ body {
     line-height: 1.71; /* 171.429% */
     letter-spacing: 0.42px;
     margin-top: 20px;
-    font-style: normal;
 }
 
 .footer-box {
@@ -530,7 +529,7 @@ body {
     color: var(--maintextandbg);
     font-size: 14px;
     font-weight: 700;
-    line-height: normal;
+    line-height: 1.14;
     letter-spacing: 0.42px;
     text-transform: uppercase;
 }
