@@ -1,0 +1,79 @@
+.port {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.port-list {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.port-button {
+    color: var(--greytext);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.63; /* 162.5% */
+    letter-spacing: 0.48px;
+    padding: 6px 22px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: var(--middown);
+    border: none;
+}
+
+.port-button:hover, .port-button:focus {
+    color: var(--maintextandbg);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.63; /* 162.5% */
+    letter-spacing: 0.48px;
+    padding: 6px 22px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: var(--bluetext);
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card-item {
+    flex-basis: calc((100% - 60px) / 3);
+    outline: 1px solid #EEE;
+}
+
+.card-item:hover, .card-item:focus {
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);}
+
+.card-img {
+    width: 100%;
+}
+
+.card-box {
+    padding: 20px 24px;
+}
+
+.card-title {
+    color: var(--greytext);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2; /* 200% */
+    letter-spacing: 1.08px;
+    margin-bottom: 4px;
+}
+
+.card-text {
+    color: var(--lighttext);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.88; /* 187.5% */
+    letter-spacing: 0.48px;
+
+}

@@ -1,0 +1,90 @@
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    border-bottom: #ECECEC solid 1px;
+}
+
+.logo-web {
+    color: var(--bluetext);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: 0.78px;
+}
+
+.header-logo {
+    color: var(--blacktext);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: 0.78px;
+    margin-right: 93px;
+}
+
+.header>.container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
+}
+
+.header-list {
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+}
+
+.header-link {
+    color: var(--lighttext);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+    display: flex;
+    align-items: center;
+    gap: 10px;  
+}
+
+.header-icon {
+    width: 16px;
+    height: 12px;
+    fill: var(--lighttext);
+}
+
+.header-item:last-child {
+    .header-icon {
+        width: 10px;
+        height: 16px;
+    }
+}
+
+.nav-link {
+    color: var(--greytext);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+}
+
+.active {
+    color: var(--bluetext);
+}
+
+.nav-link:hover, .nav-link:focus, .header-link:hover, .header-link:focus {
+    color: var(--bluetext);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+}
+
+.header-link:hover, .header-link:focus {
+    .header-icon {
+        fill: var(--bluetext);
+    }
+}
