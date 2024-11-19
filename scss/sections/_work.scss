@@ -19,6 +19,26 @@
     gap: 30px;
 }
 
+.work-item {
+    position: relative;
+}
+
 .work-img {
     width: 370px;
+}
+
+.work-text {
+    color:#FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: rgba(47, 48, 58, 0.80);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
